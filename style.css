@@ -1,0 +1,78 @@
+nav {
+  display: block;
+  margin: 0;
+}
+
+#title {
+  margin: 0;
+  padding: 10px;
+  background-color: orange;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p {
+  font-size: larger;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 20vh;
+}
+
+main {
+  padding-left: 4%;
+}
+
+.imagen {
+  max-width: 370px;
+}
+
+.wrapper {
+  display: flex;
+  padding-right: 40%;
+  margin-bottom: 40px;
+}
+
+.wrapper .imagen {
+  float: left;
+}
+
+.wrapper .text-box {
+  margin-left: 20px;
+  float: right;
+}
+
+ul {
+  font-size: large;
+}
+
+h3 {
+  font-size: larger;
+}
+
+#form {
+  border-style: double;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 300px;
+  padding: 1.5rem;
+}
